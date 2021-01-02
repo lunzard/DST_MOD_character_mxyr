@@ -1,7 +1,7 @@
 -- This information tells other players more about the mod
-name = "MXYR"
-description = "A mxyr character for Don't Starve Together."
-author = "lunzard"
+name = "Extended Sample Character"
+description = "A character template for Don't Starve Together."
+author = "Dragon Wolf Leo"
 version = "1.2.6" -- This is the version of the template. Change it to your own number.
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
