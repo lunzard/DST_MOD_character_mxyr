@@ -41,18 +41,18 @@ local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
 -- The character select screen lines
-STRINGS.CHARACTER_TITLES.mxyr = "The Sample Character"
-STRINGS.CHARACTER_NAMES.mxyr = "Esc"
-STRINGS.CHARACTER_DESCRIPTIONS.mxyr = "*Perk 1\n*Perk 2\n*Perk 3"
-STRINGS.CHARACTER_QUOTES.mxyr = "\"Quote\""
+STRINGS.CHARACTER_TITLES.mxyr = "The toughest Character"
+STRINGS.CHARACTER_NAMES.mxyr = "mxyr"
+STRINGS.CHARACTER_DESCRIPTIONS.mxyr = "*Coffee addiction\n*Sleep everywhere\n*Love Coke"
+STRINGS.CHARACTER_QUOTES.mxyr = "\"Britian is the Frog City!\""
 STRINGS.CHARACTER_SURVIVABILITY.mxyr = "Slim"
 
 -- Custom speech strings
 STRINGS.CHARACTERS.MXYR = require "speech_mxyr"
 
 -- The character's name as appears in-game 
-STRINGS.NAMES.MXYR = "Esc"
-STRINGS.SKIN_NAMES.mxyr_none = "Esc"
+STRINGS.NAMES.MXYR = "mxyr"
+STRINGS.SKIN_NAMES.mxyr_none = "mxyr"
 
 -- The skins shown in the cycle view window on the character select screen.
 -- A good place to see what you can put in here is in skinutils.lua, in the function GetSkinModes
@@ -67,4 +67,4 @@ local skin_modes = {
 }
 
 -- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("mxyr", "FEMALE", skin_modes)
+AddModCharacter("mxyr", "MALE", skin_modes)
